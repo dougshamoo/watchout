@@ -6,14 +6,14 @@
   <body>
     <div class="scoreboard">
       <!-- Modify the scoreboard when important events occur in your game! -->
-      <div class="high">High score: <span>0</span></div>
-      <div class="current">Current score: <span>0</span></div>
-      <div class="collisions">Collisions: <span>0</span></div>
+      <div class="high">High score: <span id="highScore">0</span></div>
+      <div class="current">Current score: <span id="currentScore">0</span></div>
+      <div class="collisions">Collisions: <span id="collisionCount">0</span></div>
     </div>
-    <svg width="500" height="500">
+    <!--<svg width="500" height="500">
         <rect height="500" width="500" fill="grey"></rect>
-    </svg>
-    <script src="d3.js" charset="utf-8"></script>
+    </svg>-->
+    <script src="d3.min.js" charset="utf-8"></script>
     <script src='watchout.js'></script>
   </body>
 </html>
